@@ -8084,6 +8084,24 @@ dependencies = [
 ]
 
 [[package]]
+name = "yellowstone-vixen-boop-parser"
+version = "0.3.0"
+dependencies = [
+ "borsh 0.10.4",
+ "num-derive",
+ "num-traits",
+ "prost",
+ "prost-build",
+ "solana-program",
+ "strum",
+ "strum_macros",
+ "thiserror 1.0.69",
+ "tonic",
+ "tracing",
+ "yellowstone-vixen-core",
+]
+
+[[package]]
 name = "yellowstone-vixen-core"
 version = "0.3.0"
 dependencies = [
@@ -8145,6 +8163,24 @@ dependencies = [
 ]
 
 [[package]]
+name = "yellowstone-vixen-meteora-dbc-parser"
+version = "0.3.0"
+dependencies = [
+ "borsh 0.10.4",
+ "num-derive",
+ "num-traits",
+ "prost",
+ "prost-build",
+ "solana-program",
+ "strum",
+ "strum_macros",
+ "thiserror 1.0.69",
+ "tonic",
+ "tracing",
+ "yellowstone-vixen-core",
+]
+
+[[package]]
 name = "yellowstone-vixen-meteora-parser"
 version = "0.3.0"
 dependencies = [
@@ -8156,6 +8192,24 @@ dependencies = [
  "solana-program",
  "thiserror 1.0.69",
  "tonic",
+ "yellowstone-vixen-core",
+]
+
+[[package]]
+name = "yellowstone-vixen-meteora-pools-parser"
+version = "0.3.0"
+dependencies = [
+ "borsh 0.10.4",
+ "num-derive",
+ "num-traits",
+ "prost",
+ "prost-build",
+ "solana-program",
+ "strum",
+ "strum_macros",
+ "thiserror 1.0.69",
+ "tonic",
+ "tracing",
  "yellowstone-vixen-core",
 ]
 
@@ -8315,6 +8369,42 @@ dependencies = [
 
 [[package]]
 name = "yellowstone-vixen-raydium-cpmm-parser"
+version = "0.3.0"
+dependencies = [
+ "borsh 0.10.4",
+ "num-derive",
+ "num-traits",
+ "prost",
+ "prost-build",
+ "solana-program",
+ "strum",
+ "strum_macros",
+ "thiserror 1.0.69",
+ "tonic",
+ "tracing",
+ "yellowstone-vixen-core",
+]
+
+[[package]]
+name = "yellowstone-vixen-raydium-launchpad-parser"
+version = "0.3.0"
+dependencies = [
+ "borsh 0.10.4",
+ "num-derive",
+ "num-traits",
+ "prost",
+ "prost-build",
+ "solana-program",
+ "strum",
+ "strum_macros",
+ "thiserror 1.0.69",
+ "tonic",
+ "tracing",
+ "yellowstone-vixen-core",
+]
+
+[[package]]
+name = "yellowstone-vixen-virtuals-parser"
 version = "0.3.0"
 dependencies = [
  "borsh 0.10.4",
